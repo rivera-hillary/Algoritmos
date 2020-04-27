@@ -1,0 +1,18 @@
+En un hospital existen tres áreas: Ginecología, pediatría, traumatología. El presupuesto anual del hospital se reparte conforme a la siguiente tabla:
+
+AREA                     PORCENTAJE DEL PRESUPUESTO
+Ginecología                        40%
+Traumatología                      30%
+Pediatría                          30%
+Obtener la cantidad de dinero que recibirá cada área, para cualquier monto presupuestal.
+
+INICIO
+    MOSTRAR "Ingresa el presupuesto anual del hospital"
+    LEER "a"
+    ginecologia = (40*a)/100
+    traumatologia = (30*a)/100
+    pediatria = (30*a)/100
+    MOSTRAR "La cantidad de dinero que recibirá el área de ginecología es" ginecologia
+    MOSTRAR "La cantidad de dinero que recibirá el área de pediatría es" pediatria
+    MOSTRAR "La cantidad de dinero que recibirá el área de traumatología es" traumatologia
+FIN
